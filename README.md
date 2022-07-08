@@ -7,15 +7,23 @@ The algorithm is given a lot of positive images consisting of faces, and a lot o
 ### HAAR-Features
 These features on the image makes it easy to find out the edges or the lines in the image, or to pick areas where there is a sudden change in the intensities of the pixels.
 
-![](https://i.imgur.com/v2afj6r.png)
+![](https://i.imgur.com/v2afj6r.png)                
+
+
 
 The haar feature continuously traverses from the top left of the image to the bottom right to search for the particular feature. 
-An **Integral Image** is calculated from the Original Image in such a way that each pixel in this is the sum of all the pixels lying in its left and above in the Original Image. It was introduced to reduce the time complexity
+An **Integral Image** is calculated from the Original Image in such a way that each pixel in this is the sum of all the pixels lying in its left and above in the Original Image. It was introduced to reduce the time complexity.
+
+![image](https://user-images.githubusercontent.com/91650111/177979864-cf98fd51-12c8-435d-a5b9-27d6830f5a4e.png)
  
 ### Attentional Cascade. 
 Not all the features need to run on each and every window. If a feature fails on a particular window, then we can say that the facial features are not present there. Hence, we can move to the next windows where there can be facial features present.
 
+![image](https://user-images.githubusercontent.com/91650111/177979636-22ac5450-7f7e-46af-ae1c-0458046c3c5c.png)
+
+
 ## RESULTS
+
 ![](https://i.imgur.com/FclaMNR.png)
 
 ![](https://i.imgur.com/B68C8pS.png)
